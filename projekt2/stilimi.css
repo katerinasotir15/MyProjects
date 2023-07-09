@@ -1,0 +1,514 @@
+*{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+html{
+  overflow-x: hidden;
+  scroll-padding-top: 6.5rem;
+  scroll-behavior: smooth;
+}
+.header1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #b6c3ce;
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    margin-left: 90px;
+    padding: 10px;
+}
+.header2{
+    display: flex;
+    background-color: aliceblue;
+    margin-top: 0px;
+    height: 80px;
+    justify-content: space-between;
+    position: relative;
+}
+.header2 .ikonat{
+  margin-top: 30px;
+  font-size: 25px;
+  margin-right: 250px;
+}
+#menu-bar{
+  font-size: 20px;
+  margin-top: 25px;
+  padding-left: 10px;
+  align-items: center;
+  color: black;
+  cursor: pointer;
+  display: none;
+}
+.header2 i{
+  color: black;
+}
+.header2 i:hover{
+  color: antiquewhite;
+  cursor: pointer;
+}
+header h2{
+  font-size: 30px;
+  margin-right: auto;
+  color: rgb(155, 81, 61);
+}
+.header2 nav{
+  padding-top: 15px;
+  padding-left: 30px;
+}
+header input{
+  width: 200px;
+  height: 35px;
+  font-size: 15px;
+}
+header button{
+  width: 50px;
+  height: 35px;
+  background-color:cadetblue;
+  border-color: black;
+  margin-right: 150px;
+}
+header button:hover{
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+header i{
+  color: white;
+}
+header ul{
+display: flex;
+}
+header li{
+    display: flex;
+    margin: 15px;
+}
+header a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+header a:hover{
+  width: 100px;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+  padding-top: 5px;
+  background-color: white;
+  color: rgb(159, 120, 70);
+}
+.filloblerjen{
+  margin: 0 auto;
+  padding-top: 70px;
+  justify-content: center;
+    display: flex;
+  }
+  .filloblerjen .fotoja{
+    justify-content: center;
+    margin-left: 180px;
+  }
+.pershkrimi h2{
+  font-size: 50px;
+  color: rgb(177, 204, 227);
+  padding:20px;
+}
+.pershkrimi h1{
+  font-size: 50px;
+  color: #97aec2;
+  padding-left: 26px;
+}
+.emertimi{
+  font-size: 70px;
+  color: rgb(155, 81, 61);
+}
+.pershkrimi button{
+  height: 35px;
+  width: 150px;
+  border-color: white;
+  background-color: rgb(74, 74, 135);
+  color: white;
+  font-size: 16px;
+  margin-left: 200px;
+  margin-top: 25px;
+}
+.pershkrimi button:hover{
+  color: black;
+  background-color: rgb(150, 178, 202);
+  cursor: pointer;
+}
+.ofertat{
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+}
+.ofertaspeciale{
+  width: 550px;
+  height: 350px;
+  background-image: url("img/ofertaspeciale.jpeg");
+  background-size: cover;
+}
+.ofertaspeciale:hover{
+  transform: scale(1.1);
+}
+.ofertat h2{
+  font-size: 40px;
+  color:rgb(12, 154, 154);
+  padding-left: 20px;
+  padding-top: 60px;
+}
+.ofertat p{
+  font-size: 25px;
+  color:rgb(29, 230, 230);
+  padding-left: 35px;
+}
+.ofertat button{
+  width: 140px;
+  height: 30px;
+  font-size: 17px;
+  margin-left: 50px;
+  background-color: rgb(31, 31, 94);
+  border-color: black;
+  color: white;
+  margin-top: 50px;
+}
+.ofertat button:hover{
+  color: black;
+ background-color:rgb(26, 184, 184);
+  cursor: pointer;
+}
+.ofertaelimituar {
+  width: 550px;
+  height: 350px;
+  background-image: url("img/oferteelimituar.jpeg");
+  background-size: cover;
+  margin-left: 50px;
+}
+.ofertaelimituar:hover{
+  transform: scale(1.1);
+}
+footer{
+  width: 100%;
+  display: flex;
+  margin-top: 70px;
+  background-color: #b6c3ce;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+footer div{
+  margin-top: 30px;
+}
+footer a:hover{
+  color: antiquewhite;
+}
+footer .aplikacioni{
+  margin-right: 70px;
+}
+.logo{
+  display: flex;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.logo h1{
+  margin: revert;
+  color: rgb(155, 81, 61);
+  }
+  footer a{
+    text-decoration: none;
+    color: black;
+  }
+  footer ul{
+    list-style-type: none;
+  }
+  .titulli{
+    margin: 0 auto;
+    justify-content: center;
+    width: 800px;
+    height: 100px;
+    background-color: antiquewhite;
+    text-align: center;
+    margin-top: 70px;
+  }
+  .titulli h1{
+    padding-top: 20px;
+    font-size: 50px;
+  }
+  .kategorite{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  .kategorite div{
+    width: 250px;
+    height: 350px;
+    margin: 30px;
+  }
+  .kategorite h3{
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    border-radius: 21px;
+    margin-top: 300px;
+    margin-left: 80px;
+    padding-top: 5px;
+  }
+  .kategorite div:hover{
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  .tereja{
+    background-image: url("img/tereja.jpeg");
+    background-size: cover;
+  }
+  .oferta1{
+    background-image: url("img/ofertat.jpeg");
+    background-size: cover;
+  }
+  .fustane{
+    background-image: url("img/fustane.jpeg");
+    background-size: cover;
+  }
+  .kostume{
+    background-image: url("img/kostume.jpeg");
+    background-size: cover;
+  }
+  .xhinkse{
+    background-image: url("img/xhinkse.jpeg");
+    background-size: cover;
+  }
+  .jumpsuits{
+    background-image: url("img/jumpsuits.jpeg");
+    background-size: cover;
+  }
+  .xhaketa{
+    background-image: url("img/xhaketa.jpeg");
+    background-size: cover;
+  }
+  .pantallona{
+    background-image: url("img/pantallona.webp");
+    background-size: cover;
+  }
+  .sportive{
+    background-image: url("img/sportive.jpeg");
+    background-size: cover;
+  }
+  .tshirts{
+    background-image: url("img/tshirt.webp");
+    background-size: cover;
+  }
+  .aksesore{
+    background-image: url("img/aksesore.webp");
+    background-image: cover;
+  }
+  .kepuce{
+    background-image: url("img/kepuce.webp");
+    background-size: cover;
+  }
+  .Oferta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 40px;
+  }
+  .Oferta div{
+    margin: 50px;
+    width: 300px;
+    height: 450px;
+  }
+  .offer1{
+    background-image: url("img/offer1.webp");
+    background-size: cover;
+  }
+  .offer2{
+    background-image: url("img/offer2.webp");
+    background-size: cover;
+  }
+  .offer3{
+    background-image: url("img/offer3.webp");
+    background-size: cover;
+  }
+  .offer4{
+    background-image: url("img/offer4.webp");
+    background-size: cover;
+  }
+  .offer5{
+    background-image: url("img/offer5.webp");
+    background-size: cover;
+  }
+  .offer6{
+    background-image: url("img/offer6.jpeg");
+    background-size: cover;
+  }
+  .Oferta div:hover{
+    transform: scale(1.1);
+  }
+  .Oferta p{
+    width: 35px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    border-radius: 35px;
+    margin-left: 10px;
+    padding-top: 5px;
+  }
+.Oferta button{
+  margin-top: 330px;
+  margin-left: 85px;
+  width: 130px;
+  height: 30px;
+  font-size: 18px;
+  background-color:antiquewhite;
+  border-color: white;
+  color: rgb(87, 69, 69);
+  border-radius: 7px;
+}
+.Oferta button:hover{
+ background-color: white;
+ color: black;
+ cursor: pointer;
+} 
+.regjistrimi{
+  text-align: center;
+}
+.regjistrimi label{
+  font-size: 24px;
+}
+.regjistrimi input{
+  font-size: 15px;
+  width: 250px;
+  height: 30px;
+  margin-bottom: 30px;
+}
+.regjistrimi button{
+  font-size: 20px;
+  width: 150px;
+  height: 30px;
+  margin-top: 30px;
+  background-color: antiquewhite;
+  border-color: white;
+  color: rgb(87, 69, 69);
+  border-radius: 7px;
+  margin-bottom: 40px;
+}
+.regjistrimi button:hover{
+  background-color:#97aec2;
+  color: black;
+  cursor: pointer;
+}
+.regjistrimi h3{
+  font-size: 40px;
+  padding: 30px;
+}
+.regjistrimi a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 40px;
+}
+.kontakti {
+  margin-top: 30px;
+ text-align: center;
+}
+.kontakti input{
+  width: 300px;
+  height: 40px;
+  margin: 20px;
+  font-size: 20px;
+}
+textarea{
+  margin-top: 35px;
+  font-size: 20px;
+}
+.kontakti button{
+  width: 200px;
+  height: 40px;
+  margin-top: 70px;
+  background-color: antiquewhite;
+  border-color: white;
+  color: rgb(87, 69, 69);
+  border-radius: 7px;
+  font-size: 20px;
+}
+.kontakti button:hover{
+  background-color:#97aec2;
+  color: black;
+  cursor: pointer;
+}
+.copy{
+  text-align: center;
+  background-color: #97aec2;
+  padding: 5px;
+}
+@media only screen and (max-width:768px){
+  header input{
+    width: 150px;
+    height: 30px;
+  }
+  #menu-bar{
+    margin-top: 30px;
+    display: inline;
+  }
+  .header2 nav a{
+   display: none;
+  }
+  .header2 .ikonat{
+    display: flex;
+  }
+  header button{
+    height: 30px;
+  }
+  .header1 img{
+   margin-left: 10px;
+   width: 80px;
+   height: 80px;
+  }
+  .header1 h2{
+   font-size: 20px;
+  }
+ .filloblerjen{
+  display:inline-block;
+ } 
+ .filloblerjen .fotoja img{
+  height: 200px;
+  width: 300px;
+ }
+ .filloblerjen .fotoja{
+   margin-left: 40px;
+  }
+  .pershkrimi{
+    padding: 40px;
+  }
+  .pershkrimi button{
+    margin-left: 30px;
+  }
+  .ofertat{
+    display: inline-block;
+  }
+  .ofertaspeciale{
+    height: 270px;
+    width: 330px;
+    margin-left: 20px;
+  }
+  .ofertaelimituar{
+    height: 270px;
+    width: 330px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  footer{
+    display: inline-block;
+  }
+  .titulli{
+    font-size: 10px;
+    height: 90px;
+    width: 300px;
+  }
+  textarea{
+    width: 300px;
+  }
+}
