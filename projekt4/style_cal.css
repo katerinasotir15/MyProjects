@@ -1,0 +1,110 @@
+body{
+    background-color: #e4fef5;;
+}
+.calculator{
+    border-radius: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    box-shadow: 8px 8px 5px 5px #e6dada;
+    background-color: #fbf3eb;
+}
+.calculator h1{
+    font-size: 45px;
+    color: #100f0f;
+}
+.calculator h3{
+    font-size: 26px;
+    padding-top: 33px;
+    color: #c62b2b;
+}
+.calculator label{
+    font-size: 25px;
+}
+.calculator input{
+   margin-left: 8px;
+   width: 200px;
+   height: 21px;
+}
+.calculator button{
+    margin-top: 80px;
+    height: 27px;
+    width: 102px;
+    font-size: 17px;
+    background-color: #c2c2a3;
+    border: none;
+    border-radius: 9px;
+    color: white;
+}
+.calculator button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #100f0f;
+}
+#alertBox{
+    border-radius: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(229, 173, 173);  
+    display: none;
+}
+#alertBox2{
+    border-radius: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    background-color:rgb(229, 173, 173) ;  
+    display: none;
+}
+p{
+    font-size: 15px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.messageButton{
+    font-size: 15px;
+    height: 23px;
+    background-color: #f8f8bf;
+    border: none;
+    border-radius: 9px;
+}
+.messageButton:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.headerBox{
+    display: flex;
+    justify-content: space-between;
+}
+.headerBox h3{
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.headerBox button{
+    font-size: 20px;
+    background-color: rgb(229, 173, 173);
+    margin: 15px;
+    border: none;
+}
+.headerBox button:hover{
+    color: white;
+    cursor: pointer;
+}
